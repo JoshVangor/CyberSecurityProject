@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Path: (CyberSecurityProject/Diagrams/JoshVangorElkProject.png)
+![alt text](https://github.com/JoshVangor/CyberSecurityProject/blob/main/Diagrams/JoshVangorElkProject.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-Path: (CyberSecurityProject/Ansible/install-elk.yml)
+[Elk Installation Playbook](https://github.com/JoshVangor/CyberSecurityProject/blob/main/Ansible/install-elk.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -64,7 +64,8 @@ The playbook implements the following tasks:
 - Increase Virtual Memory
 - Download and Launch Elk Container
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-Path: (CyberSecurityProject/Ansible/elkcontainerscreenshot.png)
+
+![alt text](https://github.com/JoshVangor/CyberSecurityProject/blob/main/Ansible/elkcontainerscreenshot.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -83,11 +84,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible.
 - Update the hosts.yml file to include the ips of the machines you want to install the services on.
-- Run the playbook, and navigate to [I'm an inline-style link]( http://[your.ELK-VM.External.IP]:5601/app/kibana) to check that the installation worked as expected.
+- Run the playbook, and navigate to [http://[your.ELK-VM.External.IP]:5601/app/kibana] to check that the installation worked as expected.
 
 ### Commands to run
 Downloading and running the playbook:
 - ansible-playbook /etc/ansible/install-elk.yml
+
 Updating the file:
 - sudo nano install-elk.yml
 - sudo nano hosts.yml
