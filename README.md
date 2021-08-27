@@ -51,7 +51,7 @@ A summary of the access policies in place can be found in the table below.
 |------------|---------------------|---------------------|
 | Jump Box   | Yes                 | 146.168.209.206     |
 | WebServers | No                  | 10.0.0.4            |
-| ElkVM      | No                  | 10.0.0.5 , 10.0.0.6 |
+| ElkVM      | Yes                  | 10.0.0.5 , 10.0.0.6 |
 
 ### Elk Configuration
 
