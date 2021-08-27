@@ -49,7 +49,7 @@ Only Webserver machines are allowed to access the ElkVM. The IPs of these machin
 A summary of the access policies in place can be found in the table below.
 | Name       | Publicly Accessible | Allowed IPs         |
 |------------|---------------------|---------------------|
-| Jump Box   | Yes                 | 146.168.209.206     |
+| Jump Box   | Yes                 | Personal IP    |
 | WebServers | No                  | 10.0.0.4            |
 | ElkVM      | Yes                  | 10.0.0.5 , 10.0.0.6 |
 
