@@ -32,9 +32,9 @@ Metricbeat monitors the servers to collect statistics from the OS and the servic
 | Name     | Function  | IP       | OS    |
 |----------|-----------|----------|-------|
 | Jump Box | Gateway   | 10.0.0.4 | Linux |
-| Web 1    | WebServer | 10.0.0.5 | Linux |
-| Web 2    | WebServer | 10.0.0.6 | Linux |
-| ElkVM    | Kibana    | 10.1.0.4 | Linux |
+| Web 1    | DvWA | 10.0.0.5 | Linux |
+| Web 2    | DvWA | 10.0.0.6 | Linux |
+| ElkVM    | Elk    | 10.1.0.4 | Linux |
 
 ### Access Policies
 
